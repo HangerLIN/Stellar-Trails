@@ -1,0 +1,6 @@
+UserAutoConfiguration.class
+core\UserInfoDTO$UserInfoDTOBuilder.class
+jwt\JWTUtil.class
+core\UserTransmitFilter.class
+core\UserContext.class
+core\UserInfoDTO.class

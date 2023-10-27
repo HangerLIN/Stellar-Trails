@@ -20,7 +20,7 @@ public interface Cache {
     /**
      * 放入缓存
      */
-    void put(@NotBlank String key, Object value);
+    void put(@NotBlank String key, Object value, Long valueTimeout);
 
     /**
      * 如果 keys 全部不存在，则新增，返回 true，反之 false

@@ -1,13 +1,13 @@
-package com.hanger.cache;
+package com.hanger.database;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CacheApplication {
+public class DatabaseApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CacheApplication.class, args);
+        SpringApplication.run(DatabaseApplication.class, args);
     }
 
 }

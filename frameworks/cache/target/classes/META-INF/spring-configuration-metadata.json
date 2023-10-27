@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "framework.cache.redis",
+      "type": "config.RedisDistributedProperties",
+      "sourceType": "config.RedisDistributedProperties"
+    },
+    {
+      "name": "framework.cache.redis.bloom-filter.default",
+      "type": "config.BloomFilterProperties",
+      "sourceType": "config.BloomFilterProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "framework.cache.redis.bloom-filter.default.expected-insertions",
+      "type": "java.lang.Long",
+      "description": "布隆过滤器的预计插入量",
+      "sourceType": "config.BloomFilterProperties",
+      "defaultValue": 1000000
+    },
+    {
+      "name": "framework.cache.redis.bloom-filter.default.false-probability",
+      "type": "java.lang.Double",
+      "description": "布隆过滤器的误判率",
+      "sourceType": "config.BloomFilterProperties",
+      "defaultValue": 0.03
+    },
+    {
+      "name": "framework.cache.redis.bloom-filter.default.name",
+      "type": "java.lang.String",
+      "description": "布隆过滤器默认实例名称",
+      "sourceType": "config.BloomFilterProperties",
+      "defaultValue": "cache_penetration_bloom_filter"
+    },
+    {
+      "name": "framework.cache.redis.prefix",
+      "type": "java.lang.String",
+      "description": "Key 前缀",
+      "sourceType": "config.RedisDistributedProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "framework.cache.redis.prefix-charset",
+      "type": "java.lang.String",
+      "description": "Key 前缀字符集",
+      "sourceType": "config.RedisDistributedProperties",
+      "defaultValue": "UTF-8"
+    },
+    {
+      "name": "framework.cache.redis.value-time-unit",
+      "type": "java.util.concurrent.TimeUnit",
+      "description": "时间单位",
+      "sourceType": "config.RedisDistributedProperties"
+    },
+    {
+      "name": "framework.cache.redis.value-timeout",
+      "type": "java.lang.Long",
+      "description": "默认超时时间",
+      "sourceType": "config.RedisDistributedProperties",
+      "defaultValue": 30000
+    }
+  ],
+  "hints": []
+}

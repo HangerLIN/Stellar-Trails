@@ -1,7 +1,7 @@
-IOCContainer/ApplicationContextPostProcessor.class
-constant/UserConstant.class
-jsonConfig/FastJsonSafeMode.class
-IOCContainer/ApplicationInitializingEvent.class
-config/ApplicationBaseAutoConfiguration.class
-IOCContainer/ApplicationContextHolder.class
-singleton/Singleton.class
+IOCContainer\ApplicationInitializingEvent.class
+constant\UserConstant.class
+IOCContainer\ApplicationContextPostProcessor.class
+singleton\Singleton.class
+IOCContainer\ApplicationContextHolder.class
+jsonConfig\FastJsonSafeMode.class
+config\ApplicationBaseAutoConfiguration.class

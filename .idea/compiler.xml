@@ -8,34 +8,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cache" />
-      </profile>
-      <profile name="Annotation profile for base" enabled="true">
-        <sourceOutputDir name="../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
+        <module name="database" />
+        <module name="common" />
+        <module name="user" />
         <module name="base" />
       </profile>
-      <profile name="Annotation profile for user" enabled="true">
-        <sourceOutputDir name="../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="user" />
-      </profile>
-      <profile name="Annotation profile for My12306" enabled="true">
-        <sourceOutputDir name="../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="denpendencies" />
-      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="My12306" options="" />
+      <module name="My12306" options="-parameters" />
       <module name="base" options="-parameters" />
       <module name="cache" options="-parameters" />
-      <module name="denpendencies" options="-parameters" />
-      <module name="frameworks" options="" />
+      <module name="common" options="-parameters" />
+      <module name="database" options="-parameters" />
+      <module name="denpendencies" options="" />
+      <module name="frameworks" options="-parameters" />
+      <module name="untitled" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
   </component>
