@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.order;
 
 import cn.hutool.core.collection.CollUtil;
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
@@ -67,6 +67,7 @@ public class OrderCommonDataBaseComplexAlgorithm implements ComplexKeysShardingA
                 result.add("ds_" + dbSuffix);
             }
         }
+        return result;
     }
 
     /**

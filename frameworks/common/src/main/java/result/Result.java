@@ -20,7 +20,7 @@ public class Result<T> implements Serializable{
 
     public static final String SUCCESS_CODE = "0";
 
-    private int code;
+    private String code;
 
     private String message;
 

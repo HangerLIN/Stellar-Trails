@@ -1,10 +1,14 @@
 package page;
+
+import lombok.Data;
+
 /**
  * @Classname PageRequest
  * @Description 分页请求
  * @Date 2023/10/27 17:00
  * @Created by lth
  */
+@Data
 public class PageRequest {
 
     /**

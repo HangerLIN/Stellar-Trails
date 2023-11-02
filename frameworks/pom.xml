@@ -18,6 +18,12 @@
         <module>user</module>
         <module>cache</module>
         <module>common</module>
+        <module>database</module>
+        <module>idGenerator</module>
+        <module>design</module>
+        <module>log</module>
+        <module>idempotent</module>
+        <module>web</module>
     </modules>
 
 </project>

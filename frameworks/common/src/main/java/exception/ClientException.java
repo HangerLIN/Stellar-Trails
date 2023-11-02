@@ -1,7 +1,6 @@
 package exception;
 
 import error.IErrorCode;
-import lombok.RequiredArgsConstructor;
 
 /**
  * @Classname ClientException
@@ -9,7 +8,6 @@ import lombok.RequiredArgsConstructor;
  * @Date 2023/10/27 17:00
  * @Created by lth
  */
-@RequiredArgsConstructor
 public class ClientException extends AbstractException {
 
         private static final long serialVersionUID = 1L;

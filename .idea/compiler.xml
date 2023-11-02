@@ -7,9 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="idempotent" />
         <module name="cache" />
         <module name="database" />
+        <module name="idGenerator" />
         <module name="common" />
+        <module name="log" />
+        <module name="web" />
+        <module name="design" />
         <module name="user" />
         <module name="base" />
       </profile>
@@ -26,9 +31,14 @@
       <module name="common" options="-parameters" />
       <module name="database" options="-parameters" />
       <module name="denpendencies" options="" />
+      <module name="design" options="-parameters" />
       <module name="frameworks" options="-parameters" />
+      <module name="idGenerator" options="-parameters" />
+      <module name="idempotent" options="-parameters" />
+      <module name="log" options="-parameters" />
       <module name="untitled" options="-parameters" />
       <module name="user" options="-parameters" />
+      <module name="web" options="-parameters" />
     </option>
   </component>
 </project>
