@@ -1,5 +1,11 @@
 package annotation;
 
+import enums.IdempotentSceneEnum;
+import enums.IdempotentTypeEnum;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
 /**
  * @author lth
  * @Classname Idempotent
@@ -7,6 +13,7 @@ package annotation;
  * @Date 2023/11/2 15:06
  * @Created by lth
  */
+@Retention(RetentionPolicy.RUNTIME)
 public @interface Idempotent {
     String key() default "";
     String message() default "您操作太快,请稍后再试";

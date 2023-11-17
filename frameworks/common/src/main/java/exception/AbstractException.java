@@ -25,4 +25,10 @@ public class AbstractException extends RuntimeException{
         this.code = errorCode.code();
         this.message = Optional.ofNullable(StringUtils.hasLength(message) ? message : cause.getMessage()).orElse(errorCode.message());
     }
+
+    public AbstractException(String message) {
+        super(message);
+        this.code = "500";
+        this.message = message;
+    }
 }
